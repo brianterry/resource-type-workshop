@@ -1,0 +1,25 @@
+{
+    "artifact_type": "RESOURCE",
+    "typeName": "AWSSamples::EC2::ImportKeyPair",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "com.awssamples.ec2.importkeypair.HandlerWrapper::handleRequest",
+    "testEntrypoint": "com.awssamples.ec2.importkeypair.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "version": false,
+        "subparser_name": null,
+        "verbose": 0,
+        "force": false,
+        "type_name": null,
+        "artifact_type": null,
+        "namespace": [
+            "com",
+            "awssamples",
+            "ec2",
+            "importkeypair"
+        ],
+        "codegen_template_path": "guided_aws",
+        "protocolVersion": "2.0.0"
+    },
+    "executableEntrypoint": "com.awssamples.ec2.importkeypair.HandlerWrapperExecutable"
+}
